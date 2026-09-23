@@ -1,0 +1,18 @@
+{
+  "name": "@saas-app/validation",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@saas-app/tsconfig": "workspace:*",
+    "typescript": "^5.0.0"
+  }
+}

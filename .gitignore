@@ -1,0 +1,173 @@
+# ============================================================
+# Dependencies
+# ============================================================
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+bower_components/
+
+# ============================================================
+# Environment variables / Secrets
+# ============================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep an example env file
+!.env.example
+
+# ============================================================
+# Next.js
+# ============================================================
+.next/
+out/
+.vercel/
+
+# Next.js build/cache
+.next/cache/
+
+# ============================================================
+# TypeScript
+# ============================================================
+*.tsbuildinfo
+
+# ============================================================
+# Node.js
+# ============================================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================================
+# Coverage / Testing
+# ============================================================
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+
+# ============================================================
+# ESLint / Prettier / Tool caches
+# ============================================================
+.eslintcache
+.stylelintcache
+.prettierignore.cache
+
+# ============================================================
+# Supabase
+# ============================================================
+# Local Supabase data / generated files
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+
+# Supabase local database volumes
+supabase/volumes/
+
+# Supabase CLI generated files
+supabase/.gitignore
+
+# ============================================================
+# Docker
+# ============================================================
+.docker/
+docker-data/
+docker-volumes/
+
+# Docker Compose local overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Docker environment files
+docker/.env
+docker/.env.*
+
+# ============================================================
+# Nginx
+# ============================================================
+nginx/logs/
+nginx/*.log
+nginx/cache/
+nginx/temp/
+
+# ============================================================
+# Logs
+# ============================================================
+logs/
+*.log
+
+# ============================================================
+# OS files
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================================
+# IDE / Editors
+# ============================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Temporary files
+# ============================================================
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ============================================================
+# Build artifacts
+# ============================================================
+dist/
+build/
+.vscode/
+# lib/
+
+# ============================================================
+# Generated files
+# ============================================================
+.generated/
+generated/
+.turbo/
+
+# Local AI tooling
+apps/web/.agents/
+apps/web/.claude/
+apps/web/.cursor/
+apps/web/.devin/
+apps/web/.windsurf/
+
+# ============================================================
+# Optional: local certificates / TLS
+# ============================================================
+*.pem
+*.key
+*.crt
+
+# If you intentionally commit public certificates,
+# whitelist them explicitly.
+

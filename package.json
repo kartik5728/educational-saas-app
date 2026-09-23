@@ -1,0 +1,31 @@
+{
+  "name": "saas-app",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.5.1",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "supabase": "^2.117.0",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@12.5.1",
+  "type": "module"
+}
