@@ -17,7 +17,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.5.1",
+      "version": "12.9.1",
       "onFail": "download"
     }
   },
@@ -26,6 +26,6 @@
     "supabase": "^2.117.0",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@12.5.1",
+  "packageManager": "pnpm@12.9.1",
   "type": "module"
 }
